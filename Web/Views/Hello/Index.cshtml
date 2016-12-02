@@ -1,0 +1,27 @@
+﻿@model KRS.TimeTracking.Web.Models.HelloViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Hello</h2>
+
+<ul>    
+    <li>@Html.DisplayTextFor(x => x.Message)</li>
+    <li>@Html.DisplayTextFor(x => x.CurrentDateTime)</li>
+    <li>@Html.DisplayTextFor(x => x.CurrentUser)</li>
+</ul>
+
+@using (Html.BeginForm())
+{
+    <ul>
+        <li>@Html.EditorFor(x => x.Message)</li>
+        <li>@Html.EditorFor(x => x.CurrentDateTime)</li>
+        <li>@Html.EditorFor(x => x.CurrentUser)</li>
+    </ul>
+
+    <input type="submit" value="Submit" class="btn btn-primary" />
+
+
+}
+

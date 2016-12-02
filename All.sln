@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{EF2CBD42-A880-4121-AA7B-B6504DC925C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{77160172-A449-41A4-980B-0B3E752E6A7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF2CBD42-A880-4121-AA7B-B6504DC925C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2CBD42-A880-4121-AA7B-B6504DC925C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2CBD42-A880-4121-AA7B-B6504DC925C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2CBD42-A880-4121-AA7B-B6504DC925C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77160172-A449-41A4-980B-0B3E752E6A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77160172-A449-41A4-980B-0B3E752E6A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77160172-A449-41A4-980B-0B3E752E6A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77160172-A449-41A4-980B-0B3E752E6A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mikebranstein.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Web\\Web.csproj
+		SccProjectName1 = Web
+		SccLocalPath1 = Web
+		SccProjectUniqueName2 = Data\\Data.csproj
+		SccProjectName2 = Data
+		SccLocalPath2 = Data
+	EndGlobalSection
+EndGlobal
